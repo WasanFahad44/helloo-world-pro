@@ -1,0 +1,587 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 56;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		8E733B3F2CC677A6005F13F8 /* helloo_world_proApp.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8E733B3E2CC677A6005F13F8 /* helloo_world_proApp.swift */; };
+		8E733B412CC677A6005F13F8 /* ContentView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8E733B402CC677A6005F13F8 /* ContentView.swift */; };
+		8E733B432CC677A6005F13F8 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 8E733B422CC677A6005F13F8 /* Assets.xcassets */; };
+		8E733B462CC677A6005F13F8 /* Preview Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 8E733B452CC677A6005F13F8 /* Preview Assets.xcassets */; };
+		8E733B502CC677A7005F13F8 /* helloo_world_proTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8E733B4F2CC677A7005F13F8 /* helloo_world_proTests.swift */; };
+		8E733B5A2CC677A7005F13F8 /* helloo_world_proUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8E733B592CC677A7005F13F8 /* helloo_world_proUITests.swift */; };
+		8E733B5C2CC677A7005F13F8 /* helloo_world_proUITestsLaunchTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8E733B5B2CC677A7005F13F8 /* helloo_world_proUITestsLaunchTests.swift */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		8E733B4C2CC677A7005F13F8 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 8E733B332CC677A6005F13F8 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 8E733B3A2CC677A6005F13F8;
+			remoteInfo = "helloo world pro";
+		};
+		8E733B562CC677A7005F13F8 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 8E733B332CC677A6005F13F8 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 8E733B3A2CC677A6005F13F8;
+			remoteInfo = "helloo world pro";
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXFileReference section */
+		8E733B3B2CC677A6005F13F8 /* helloo world pro.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = "helloo world pro.app"; sourceTree = BUILT_PRODUCTS_DIR; };
+		8E733B3E2CC677A6005F13F8 /* helloo_world_proApp.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = helloo_world_proApp.swift; sourceTree = "<group>"; };
+		8E733B402CC677A6005F13F8 /* ContentView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ContentView.swift; sourceTree = "<group>"; };
+		8E733B422CC677A6005F13F8 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		8E733B452CC677A6005F13F8 /* Preview Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = "Preview Assets.xcassets"; sourceTree = "<group>"; };
+		8E733B4B2CC677A7005F13F8 /* helloo world proTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = "helloo world proTests.xctest"; sourceTree = BUILT_PRODUCTS_DIR; };
+		8E733B4F2CC677A7005F13F8 /* helloo_world_proTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = helloo_world_proTests.swift; sourceTree = "<group>"; };
+		8E733B552CC677A7005F13F8 /* helloo world proUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = "helloo world proUITests.xctest"; sourceTree = BUILT_PRODUCTS_DIR; };
+		8E733B592CC677A7005F13F8 /* helloo_world_proUITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = helloo_world_proUITests.swift; sourceTree = "<group>"; };
+		8E733B5B2CC677A7005F13F8 /* helloo_world_proUITestsLaunchTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = helloo_world_proUITestsLaunchTests.swift; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		8E733B382CC677A6005F13F8 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		8E733B482CC677A7005F13F8 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		8E733B522CC677A7005F13F8 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		8E733B322CC677A6005F13F8 = {
+			isa = PBXGroup;
+			children = (
+				8E733B3D2CC677A6005F13F8 /* helloo world pro */,
+				8E733B4E2CC677A7005F13F8 /* helloo world proTests */,
+				8E733B582CC677A7005F13F8 /* helloo world proUITests */,
+				8E733B3C2CC677A6005F13F8 /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		8E733B3C2CC677A6005F13F8 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				8E733B3B2CC677A6005F13F8 /* helloo world pro.app */,
+				8E733B4B2CC677A7005F13F8 /* helloo world proTests.xctest */,
+				8E733B552CC677A7005F13F8 /* helloo world proUITests.xctest */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		8E733B3D2CC677A6005F13F8 /* helloo world pro */ = {
+			isa = PBXGroup;
+			children = (
+				8E733B3E2CC677A6005F13F8 /* helloo_world_proApp.swift */,
+				8E733B402CC677A6005F13F8 /* ContentView.swift */,
+				8E733B422CC677A6005F13F8 /* Assets.xcassets */,
+				8E733B442CC677A6005F13F8 /* Preview Content */,
+			);
+			path = "helloo world pro";
+			sourceTree = "<group>";
+		};
+		8E733B442CC677A6005F13F8 /* Preview Content */ = {
+			isa = PBXGroup;
+			children = (
+				8E733B452CC677A6005F13F8 /* Preview Assets.xcassets */,
+			);
+			path = "Preview Content";
+			sourceTree = "<group>";
+		};
+		8E733B4E2CC677A7005F13F8 /* helloo world proTests */ = {
+			isa = PBXGroup;
+			children = (
+				8E733B4F2CC677A7005F13F8 /* helloo_world_proTests.swift */,
+			);
+			path = "helloo world proTests";
+			sourceTree = "<group>";
+		};
+		8E733B582CC677A7005F13F8 /* helloo world proUITests */ = {
+			isa = PBXGroup;
+			children = (
+				8E733B592CC677A7005F13F8 /* helloo_world_proUITests.swift */,
+				8E733B5B2CC677A7005F13F8 /* helloo_world_proUITestsLaunchTests.swift */,
+			);
+			path = "helloo world proUITests";
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		8E733B3A2CC677A6005F13F8 /* helloo world pro */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 8E733B5F2CC677A7005F13F8 /* Build configuration list for PBXNativeTarget "helloo world pro" */;
+			buildPhases = (
+				8E733B372CC677A6005F13F8 /* Sources */,
+				8E733B382CC677A6005F13F8 /* Frameworks */,
+				8E733B392CC677A6005F13F8 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = "helloo world pro";
+			productName = "helloo world pro";
+			productReference = 8E733B3B2CC677A6005F13F8 /* helloo world pro.app */;
+			productType = "com.apple.product-type.application";
+		};
+		8E733B4A2CC677A7005F13F8 /* helloo world proTests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 8E733B622CC677A7005F13F8 /* Build configuration list for PBXNativeTarget "helloo world proTests" */;
+			buildPhases = (
+				8E733B472CC677A7005F13F8 /* Sources */,
+				8E733B482CC677A7005F13F8 /* Frameworks */,
+				8E733B492CC677A7005F13F8 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				8E733B4D2CC677A7005F13F8 /* PBXTargetDependency */,
+			);
+			name = "helloo world proTests";
+			productName = "helloo world proTests";
+			productReference = 8E733B4B2CC677A7005F13F8 /* helloo world proTests.xctest */;
+			productType = "com.apple.product-type.bundle.unit-test";
+		};
+		8E733B542CC677A7005F13F8 /* helloo world proUITests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 8E733B652CC677A7005F13F8 /* Build configuration list for PBXNativeTarget "helloo world proUITests" */;
+			buildPhases = (
+				8E733B512CC677A7005F13F8 /* Sources */,
+				8E733B522CC677A7005F13F8 /* Frameworks */,
+				8E733B532CC677A7005F13F8 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				8E733B572CC677A7005F13F8 /* PBXTargetDependency */,
+			);
+			name = "helloo world proUITests";
+			productName = "helloo world proUITests";
+			productReference = 8E733B552CC677A7005F13F8 /* helloo world proUITests.xctest */;
+			productType = "com.apple.product-type.bundle.ui-testing";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		8E733B332CC677A6005F13F8 /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				BuildIndependentTargetsInParallel = 1;
+				LastSwiftUpdateCheck = 1540;
+				LastUpgradeCheck = 1540;
+				TargetAttributes = {
+					8E733B3A2CC677A6005F13F8 = {
+						CreatedOnToolsVersion = 15.4;
+					};
+					8E733B4A2CC677A7005F13F8 = {
+						CreatedOnToolsVersion = 15.4;
+						TestTargetID = 8E733B3A2CC677A6005F13F8;
+					};
+					8E733B542CC677A7005F13F8 = {
+						CreatedOnToolsVersion = 15.4;
+						TestTargetID = 8E733B3A2CC677A6005F13F8;
+					};
+				};
+			};
+			buildConfigurationList = 8E733B362CC677A6005F13F8 /* Build configuration list for PBXProject "helloo world pro" */;
+			compatibilityVersion = "Xcode 14.0";
+			developmentRegion = en;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = 8E733B322CC677A6005F13F8;
+			productRefGroup = 8E733B3C2CC677A6005F13F8 /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				8E733B3A2CC677A6005F13F8 /* helloo world pro */,
+				8E733B4A2CC677A7005F13F8 /* helloo world proTests */,
+				8E733B542CC677A7005F13F8 /* helloo world proUITests */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		8E733B392CC677A6005F13F8 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				8E733B462CC677A6005F13F8 /* Preview Assets.xcassets in Resources */,
+				8E733B432CC677A6005F13F8 /* Assets.xcassets in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		8E733B492CC677A7005F13F8 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		8E733B532CC677A7005F13F8 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		8E733B372CC677A6005F13F8 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				8E733B412CC677A6005F13F8 /* ContentView.swift in Sources */,
+				8E733B3F2CC677A6005F13F8 /* helloo_world_proApp.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		8E733B472CC677A7005F13F8 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				8E733B502CC677A7005F13F8 /* helloo_world_proTests.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		8E733B512CC677A7005F13F8 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				8E733B5C2CC677A7005F13F8 /* helloo_world_proUITestsLaunchTests.swift in Sources */,
+				8E733B5A2CC677A7005F13F8 /* helloo_world_proUITests.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		8E733B4D2CC677A7005F13F8 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 8E733B3A2CC677A6005F13F8 /* helloo world pro */;
+			targetProxy = 8E733B4C2CC677A7005F13F8 /* PBXContainerItemProxy */;
+		};
+		8E733B572CC677A7005F13F8 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 8E733B3A2CC677A6005F13F8 /* helloo world pro */;
+			targetProxy = 8E733B562CC677A7005F13F8 /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin XCBuildConfiguration section */
+		8E733B5D2CC677A7005F13F8 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				ASSETCATALOG_COMPILER_GENERATE_SWIFT_ASSET_SYMBOL_EXTENSIONS = YES;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++20";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_QUOTED_INCLUDE_IN_FRAMEWORK_HEADER = YES;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				ENABLE_USER_SCRIPT_SANDBOXING = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu17;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 17.5;
+				LOCALIZATION_PREFERS_STRING_CATALOGS = YES;
+				MTL_ENABLE_DEBUG_INFO = INCLUDE_SOURCE;
+				MTL_FAST_MATH = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = "DEBUG $(inherited)";
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+			};
+			name = Debug;
+		};
+		8E733B5E2CC677A7005F13F8 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				ASSETCATALOG_COMPILER_GENERATE_SWIFT_ASSET_SYMBOL_EXTENSIONS = YES;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++20";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_QUOTED_INCLUDE_IN_FRAMEWORK_HEADER = YES;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_USER_SCRIPT_SANDBOXING = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu17;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 17.5;
+				LOCALIZATION_PREFERS_STRING_CATALOGS = YES;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				MTL_FAST_MATH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_COMPILATION_MODE = wholemodule;
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		8E733B602CC677A7005F13F8 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_ASSET_PATHS = "\"helloo world pro/Preview Content\"";
+				ENABLE_PREVIEWS = YES;
+				GENERATE_INFOPLIST_FILE = YES;
+				INFOPLIST_KEY_UIApplicationSceneManifest_Generation = YES;
+				INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents = YES;
+				INFOPLIST_KEY_UILaunchScreen_Generation = YES;
+				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPad = "UIInterfaceOrientationPortrait UIInterfaceOrientationPortraitUpsideDown UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPhone = "UIInterfaceOrientationPortrait UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = "W.helloo-world-pro";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = YES;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Debug;
+		};
+		8E733B612CC677A7005F13F8 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_ASSET_PATHS = "\"helloo world pro/Preview Content\"";
+				ENABLE_PREVIEWS = YES;
+				GENERATE_INFOPLIST_FILE = YES;
+				INFOPLIST_KEY_UIApplicationSceneManifest_Generation = YES;
+				INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents = YES;
+				INFOPLIST_KEY_UILaunchScreen_Generation = YES;
+				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPad = "UIInterfaceOrientationPortrait UIInterfaceOrientationPortraitUpsideDown UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPhone = "UIInterfaceOrientationPortrait UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = "W.helloo-world-pro";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = YES;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Release;
+		};
+		8E733B632CC677A7005F13F8 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				GENERATE_INFOPLIST_FILE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 17.5;
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = "W.helloo-world-proTests";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = NO;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/helloo world pro.app/$(BUNDLE_EXECUTABLE_FOLDER_PATH)/helloo world pro";
+			};
+			name = Debug;
+		};
+		8E733B642CC677A7005F13F8 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				GENERATE_INFOPLIST_FILE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 17.5;
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = "W.helloo-world-proTests";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = NO;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/helloo world pro.app/$(BUNDLE_EXECUTABLE_FOLDER_PATH)/helloo world pro";
+			};
+			name = Release;
+		};
+		8E733B662CC677A7005F13F8 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				GENERATE_INFOPLIST_FILE = YES;
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = "W.helloo-world-proUITests";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = NO;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_TARGET_NAME = "helloo world pro";
+			};
+			name = Debug;
+		};
+		8E733B672CC677A7005F13F8 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				GENERATE_INFOPLIST_FILE = YES;
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = "W.helloo-world-proUITests";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = NO;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_TARGET_NAME = "helloo world pro";
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		8E733B362CC677A6005F13F8 /* Build configuration list for PBXProject "helloo world pro" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				8E733B5D2CC677A7005F13F8 /* Debug */,
+				8E733B5E2CC677A7005F13F8 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		8E733B5F2CC677A7005F13F8 /* Build configuration list for PBXNativeTarget "helloo world pro" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				8E733B602CC677A7005F13F8 /* Debug */,
+				8E733B612CC677A7005F13F8 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		8E733B622CC677A7005F13F8 /* Build configuration list for PBXNativeTarget "helloo world proTests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				8E733B632CC677A7005F13F8 /* Debug */,
+				8E733B642CC677A7005F13F8 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		8E733B652CC677A7005F13F8 /* Build configuration list for PBXNativeTarget "helloo world proUITests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				8E733B662CC677A7005F13F8 /* Debug */,
+				8E733B672CC677A7005F13F8 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = 8E733B332CC677A6005F13F8 /* Project object */;
+}
