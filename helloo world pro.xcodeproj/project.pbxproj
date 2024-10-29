@@ -8,12 +8,12 @@
 
 /* Begin PBXBuildFile section */
 		8E733B3F2CC677A6005F13F8 /* helloo_world_proApp.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8E733B3E2CC677A6005F13F8 /* helloo_world_proApp.swift */; };
-		8E733B412CC677A6005F13F8 /* ContentView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8E733B402CC677A6005F13F8 /* ContentView.swift */; };
 		8E733B432CC677A6005F13F8 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 8E733B422CC677A6005F13F8 /* Assets.xcassets */; };
 		8E733B462CC677A6005F13F8 /* Preview Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 8E733B452CC677A6005F13F8 /* Preview Assets.xcassets */; };
 		8E733B502CC677A7005F13F8 /* helloo_world_proTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8E733B4F2CC677A7005F13F8 /* helloo_world_proTests.swift */; };
 		8E733B5A2CC677A7005F13F8 /* helloo_world_proUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8E733B592CC677A7005F13F8 /* helloo_world_proUITests.swift */; };
 		8E733B5C2CC677A7005F13F8 /* helloo_world_proUITestsLaunchTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8E733B5B2CC677A7005F13F8 /* helloo_world_proUITestsLaunchTests.swift */; };
+		8E7642B92CCFA4B100902F5C /* ContentView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8E7642B82CCFA4B100902F5C /* ContentView.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -36,7 +36,6 @@
 /* Begin PBXFileReference section */
 		8E733B3B2CC677A6005F13F8 /* helloo world pro.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = "helloo world pro.app"; sourceTree = BUILT_PRODUCTS_DIR; };
 		8E733B3E2CC677A6005F13F8 /* helloo_world_proApp.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = helloo_world_proApp.swift; sourceTree = "<group>"; };
-		8E733B402CC677A6005F13F8 /* ContentView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ContentView.swift; sourceTree = "<group>"; };
 		8E733B422CC677A6005F13F8 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		8E733B452CC677A6005F13F8 /* Preview Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = "Preview Assets.xcassets"; sourceTree = "<group>"; };
 		8E733B4B2CC677A7005F13F8 /* helloo world proTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = "helloo world proTests.xctest"; sourceTree = BUILT_PRODUCTS_DIR; };
@@ -44,6 +43,7 @@
 		8E733B552CC677A7005F13F8 /* helloo world proUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = "helloo world proUITests.xctest"; sourceTree = BUILT_PRODUCTS_DIR; };
 		8E733B592CC677A7005F13F8 /* helloo_world_proUITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = helloo_world_proUITests.swift; sourceTree = "<group>"; };
 		8E733B5B2CC677A7005F13F8 /* helloo_world_proUITestsLaunchTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = helloo_world_proUITestsLaunchTests.swift; sourceTree = "<group>"; };
+		8E7642B82CCFA4B100902F5C /* ContentView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ContentView.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -95,7 +95,7 @@
 			isa = PBXGroup;
 			children = (
 				8E733B3E2CC677A6005F13F8 /* helloo_world_proApp.swift */,
-				8E733B402CC677A6005F13F8 /* ContentView.swift */,
+				8E7642B82CCFA4B100902F5C /* ContentView.swift */,
 				8E733B422CC677A6005F13F8 /* Assets.xcassets */,
 				8E733B442CC677A6005F13F8 /* Preview Content */,
 			);
@@ -257,7 +257,7 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				8E733B412CC677A6005F13F8 /* ContentView.swift in Sources */,
+				8E7642B92CCFA4B100902F5C /* ContentView.swift in Sources */,
 				8E733B3F2CC677A6005F13F8 /* helloo_world_proApp.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
@@ -422,6 +422,7 @@
 				CODE_SIGN_STYLE = Automatic;
 				CURRENT_PROJECT_VERSION = 1;
 				DEVELOPMENT_ASSET_PATHS = "\"helloo world pro/Preview Content\"";
+				DEVELOPMENT_TEAM = G95MNPSR2Y;
 				ENABLE_PREVIEWS = YES;
 				GENERATE_INFOPLIST_FILE = YES;
 				INFOPLIST_KEY_UIApplicationSceneManifest_Generation = YES;
@@ -450,6 +451,7 @@
 				CODE_SIGN_STYLE = Automatic;
 				CURRENT_PROJECT_VERSION = 1;
 				DEVELOPMENT_ASSET_PATHS = "\"helloo world pro/Preview Content\"";
+				DEVELOPMENT_TEAM = G95MNPSR2Y;
 				ENABLE_PREVIEWS = YES;
 				GENERATE_INFOPLIST_FILE = YES;
 				INFOPLIST_KEY_UIApplicationSceneManifest_Generation = YES;
